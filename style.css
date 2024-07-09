@@ -99,6 +99,8 @@ style into the main div */
     height: 100%;
     /* background-color: #ff6b84; */
     display: inline-block;
+    text-align: center;
+    align-content: center;
 }
 .Second{
     width: 43%;
@@ -106,10 +108,32 @@ style into the main div */
     /* background-color: bisque; */
     display: inline-block;
     border-left: 1.5px solid #ff6b84;
+    text-align: center;
+    align-content: center;
+}
+.det_temp{
+    color: #fc3c15;
+    font-size: 2rem;
+}
+.temp{
+    color: aqua;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+.TitleTimeZone{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f61f6e;
+    display: none;
 }
 
-/* 
-this check for gits */
+.timezone{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 62, 113);
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+}
+
+
 
 
 footer{
